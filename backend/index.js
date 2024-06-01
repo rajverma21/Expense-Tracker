@@ -6,6 +6,7 @@ import router from './routes/expenseRoutes.js'
 
 dotenv.config()
 const app = express()
+app.use(express.static('dist'))
 
 // MIDDLEWARES
 
