@@ -4,7 +4,8 @@
   "description": "backend for an expense tracker web application using mern stack",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
   },
   "type": "module",
   "keywords": [
